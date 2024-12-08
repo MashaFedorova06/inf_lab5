@@ -102,9 +102,9 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 <img width="687" alt="image" src="https://github.com/user-attachments/assets/0c749632-1210-40ea-a7e8-260d1e870221">
 
 
-      ```
-       git flow feature finish task-management
-      ```
+  ```
+  git flow feature finish task-management
+  ```
 
   - завершается работа над фичей task-management. Внесенные изменения сливаются обратно в ветку develop, а ветка фичи удаляется.
 <img width="596" alt="image" src="https://github.com/user-attachments/assets/056d297a-4eb1-42cd-a3d1-7e93749be358">
@@ -172,34 +172,27 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 
       ```
        git commit -m "Исправлена критическая ошибка"
-       ```
+     ```
 
   - создается коммит с сообщением об исправлении критической ошибки.
 <img width="623" alt="image" src="https://github.com/user-attachments/assets/19c987b9-5201-41da-b30f-aaa17188d968">
 
-      ```
-       git push origin develop
-       ```
+    ```
+     git push origin develop
+     ```
 
   - все изменения из локальной ветки develop отправляются в удаленный репозиторий на GitHub, чтобы другие участники команды могли получить доступ к актуальной версии проекта.
 
  <img width="503" alt="image" src="https://github.com/user-attachments/assets/09d643a5-1be2-4357-a627-2ac009863df8">
 
-      ```
-       git push origin main
-       ```
+  ```
+  git push origin main
+   ```
   - отправка всех изменений из локальной ветки master (включая завершенный релиз)
-
-    
-  <img width="927" alt="image" src="https://github.com/user-attachments/assets/e31e389b-1047-4514-9727-e793320bc007">
-
-    
-   <img width="559" alt="image" src="https://github.com/user-attachments/assets/b5eef6c3-05fc-4a32-b5a3-6f0f39c35c2d">
-                                    
-    
-  <img width="871" alt="image" src="https://github.com/user-attachments/assets/114f50d5-177c-4680-bb34-9a1b88427d02">
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/529a6640-3eb9-4598-98e4-aae1235bd67c">
 
 
+ -------------------------------------------------------------------------------------------------------
 
 
 *Работу выполнила Федорова Мария Витальевна.*
