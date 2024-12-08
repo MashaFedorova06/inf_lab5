@@ -173,6 +173,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       ```
        git commit -m "Исправлена критическая ошибка"
        ```
+<img width="623" alt="image" src="https://github.com/user-attachments/assets/19c987b9-5201-41da-b30f-aaa17188d968">
 
   - создается коммит с сообщением об исправлении критической ошибки.
 
