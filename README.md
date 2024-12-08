@@ -67,6 +67,8 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
   ```
      
   - инициализирует структуру ветвления Git Flow в текущем репозитории. При этом создаются основные ветки: develop и master, а также настраиваются правила для именования релизов и фич.
+    <img width="430" alt="image" src="https://github.com/user-attachments/assets/88f206f6-80d7-4d0a-a7e4-a67b6ce1d670">
+
    
       ```
       git flow feature start task-management
