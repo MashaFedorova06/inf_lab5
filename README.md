@@ -179,11 +179,14 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
   - отправка всех изменений из локальной ветки master (включая завершенный релиз)
 
     
-    <img width="997" alt="image" src="https://github.com/user-attachments/assets/aac9931a-dada-4e91-9045-e410d61b6012">
+  <img width="927" alt="image" src="https://github.com/user-attachments/assets/e31e389b-1047-4514-9727-e793320bc007">
+
     
-    <img width="582" alt="image" src="https://github.com/user-attachments/assets/7f89cb7f-2596-4704-8c68-cd882b4152d6">                                     
+   <img width="559" alt="image" src="https://github.com/user-attachments/assets/b5eef6c3-05fc-4a32-b5a3-6f0f39c35c2d">
+                                    
     
-    <img width="286" alt="image" src="https://github.com/user-attachments/assets/fff8670b-34c9-4162-9fe3-e13b15841d6f">
+  <img width="871" alt="image" src="https://github.com/user-attachments/assets/114f50d5-177c-4680-bb34-9a1b88427d02">
+
 
 
 
