@@ -173,10 +173,9 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       ```
        git commit -m "Исправлена критическая ошибка"
        ```
-<img width="623" alt="image" src="https://github.com/user-attachments/assets/19c987b9-5201-41da-b30f-aaa17188d968">
 
   - создается коммит с сообщением об исправлении критической ошибки.
-
+<img width="623" alt="image" src="https://github.com/user-attachments/assets/19c987b9-5201-41da-b30f-aaa17188d968">
 
       ```
        git push origin develop
@@ -184,7 +183,8 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 
   - все изменения из локальной ветки develop отправляются в удаленный репозиторий на GitHub, чтобы другие участники команды могли получить доступ к актуальной версии проекта.
 
- 
+ <img width="503" alt="image" src="https://github.com/user-attachments/assets/09d643a5-1be2-4357-a627-2ac009863df8">
+
       ```
        git push origin main
        ```
