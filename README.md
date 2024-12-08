@@ -79,9 +79,9 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
     
  <img width="549" alt="image" src="https://github.com/user-attachments/assets/bcc3c9da-c20c-4655-84fb-b5da6defe92c">
 
-    ```
-      echo "print('tests passed')" > task_manager.py
-      ```
+   ```
+    echo "print('tests passed')" > task_manager.py
+   ```
 
   - в файл task_manager.py добавлен простой код, который выводит сообщение о том, что тесты прошли успешно. Это является частью реализации функционала управления задачами.
 
@@ -98,6 +98,8 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       ```
 
   - создается коммит с сообщением о добавлении функционала управления задачами.
+
+<img width="687" alt="image" src="https://github.com/user-attachments/assets/0c749632-1210-40ea-a7e8-260d1e870221">
 
 
       ```
