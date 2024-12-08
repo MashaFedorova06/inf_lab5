@@ -122,6 +122,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       ```
 
   - запускается процесс создания нового релиза версии v1.0.0. Создается отдельная ветка для подготовки релиза.
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/1955b667-4cb1-415d-afaf-b68d56bf7eed">
 
  
       ```
