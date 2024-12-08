@@ -180,7 +180,9 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 
     
     <img width="997" alt="image" src="https://github.com/user-attachments/assets/aac9931a-dada-4e91-9045-e410d61b6012">
+    
     <img width="582" alt="image" src="https://github.com/user-attachments/assets/7f89cb7f-2596-4704-8c68-cd882b4152d6">
+    
     <img width="286" alt="image" src="https://github.com/user-attachments/assets/fff8670b-34c9-4162-9fe3-e13b15841d6f">
 
 
