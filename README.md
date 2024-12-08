@@ -160,6 +160,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
        ```
 
   - запускается процесс создания хотфикса под названием hotfix-1.0.1. Это необходимо для исправления критической ошибки, обнаруженной после релиза.
+<img width="547" alt="image" src="https://github.com/user-attachments/assets/130474a3-59e6-4ff8-98fe-5d3e68b0b613">
 
 
       ```
