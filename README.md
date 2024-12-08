@@ -107,6 +107,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       ```
 
   - завершается работа над фичей task-management. Внесенные изменения сливаются обратно в ветку develop, а ветка фичи удаляется.
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/056d297a-4eb1-42cd-a3d1-7e93749be358">
 
 
       ```
