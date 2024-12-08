@@ -152,6 +152,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       ```
 
   - завершается процесс релиза v1.0.0. Изменения из ветки релиза сливаются в ветки develop и master, а также создается тег для новой версии.
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/a5055387-0458-4371-bc6f-a70e98e5c89d">
 
  
        ```
