@@ -144,6 +144,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
        ```
 
   - создается коммит с сообщением об обновлении версии приложения до v1.0.0.
+<img width="642" alt="image" src="https://github.com/user-attachments/assets/4ecdad1d-75d1-41d8-bfd3-cfce17de316c">
 
    
      ```
