@@ -57,8 +57,6 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 
 ### Задание 2
 
-<img width="591" alt="image" src="https://github.com/user-attachments/assets/6f2e9b62-f840-4e77-a0e3-6fed208d8c35">
-
 
 ### Выполнение работы 
 
@@ -66,7 +64,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
   git flow init
   ```
      
-  - инициализирует структуру ветвления Git Flow в текущем репозитории. При этом создаются основные ветки: develop и master, а также настраиваются правила для именования релизов и фич.
+  - инициализируем структуру ветвления Git Flow в текущем репозитории. При этом создаются основные ветки: develop и master, а также настраиваются правила для именования релизов и фич.
 
      <img width="430" alt="image" src="https://github.com/user-attachments/assets/88f206f6-80d7-4d0a-a7e4-a67b6ce1d670">
 
@@ -75,7 +73,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       git flow feature start task-management
       ```
 
-  - запускается новая фича под названием task-management. Создается отдельная ветка, где будет разрабатываться функционал управления задачами.
+  - запускаем новую фичу под названием task-management
     
  <img width="549" alt="image" src="https://github.com/user-attachments/assets/bcc3c9da-c20c-4655-84fb-b5da6defe92c">
 
@@ -83,21 +81,21 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
     echo "print('tests passed')" > task_manager.py
    ```
 
-  - в файл task_manager.py добавлен простой код, который выводит сообщение о том, что тесты прошли успешно. Это является частью реализации функционала управления задачами.
+  - в файл task_manager.py добавяем простой код, который выводит сообщение о том, что тесты прошли успешно.
 
   
       ```
       git add task_manager.py
       ```
 
-  - файл task_manager.py добавляется в индекс для последующего коммита.
+  - файл task_manager.py добавляем в индекс для последующего коммита.
 
  
       ```
        git commit -m "Добавлен функционал управления задачами"
       ```
 
-  - создается коммит с сообщением о добавлении функционала управления задачами.
+  - создаем коммит с сообщением о добавлении функционала управления задачами.
 
 <img width="687" alt="image" src="https://github.com/user-attachments/assets/0c749632-1210-40ea-a7e8-260d1e870221">
 
@@ -106,7 +104,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
   git flow feature finish task-management
   ```
 
-  - завершается работа над фичей task-management. Внесенные изменения сливаются обратно в ветку develop, а ветка фичи удаляется.
+  - завершаем работу над фичей task-management. Внесенные изменения сливаются обратно в ветку develop, а ветка фичи удаляется.
 <img width="596" alt="image" src="https://github.com/user-attachments/assets/056d297a-4eb1-42cd-a3d1-7e93749be358">
 
 
@@ -114,14 +112,14 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
        git checkout develop
       ```
 
-  - переключение на основную ветку разработки develop, где будут собираться все изменения перед релизом.
+  - переключаемся на основную ветку разработки develop, где будут собираться все изменения перед релизом.
 
   
      ```
        git flow release start v1.0.0
       ```
 
-  - запускается процесс создания нового релиза версии v1.0.0. Создается отдельная ветка для подготовки релиза.
+  - запускаем процесс создания нового релиза версии v1.0.0(Создается отдельная ветка для подготовки релиза.)
 <img width="594" alt="image" src="https://github.com/user-attachments/assets/1955b667-4cb1-415d-afaf-b68d56bf7eed">
 
  
@@ -129,21 +127,21 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       echo "v1.0.0" > version.txt
       ```
 
-  - в файл version.txt записывается номер текущей версии приложения — v1.0.0.
+  - в файл version.txt записываем номер текущей версии приложения — v1.0.0.
 
 
       ```
        git add version.txt
       ```
 
-  -  файл version.txt добавляется в индекс для последующего коммита.
+  -  файл version.txt добавляем в индекс для последующего коммита.
 
  
        ```
         git commit -m "Обновлена версия для релиза v1.0.0"
        ```
 
-  - создается коммит с сообщением об обновлении версии приложения до v1.0.0.
+  - создаем коммит с сообщением об обновлении версии приложения до v1.0.0.
 <img width="642" alt="image" src="https://github.com/user-attachments/assets/4ecdad1d-75d1-41d8-bfd3-cfce17de316c">
 
    
@@ -151,7 +149,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
       git flow release finish v1.0.0
       ```
 
-  - завершается процесс релиза v1.0.0. Изменения из ветки релиза сливаются в ветки develop и master, а также создается тег для новой версии.
+  - завершаем процесс релиза v1.0.0. Изменения из ветки релиза сливаются в ветки develop и master, а также создается тег для новой версии.
 <img width="578" alt="image" src="https://github.com/user-attachments/assets/a5055387-0458-4371-bc6f-a70e98e5c89d">
 
  
@@ -159,7 +157,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
        git flow hotfix start hotfix-1.0.1
        ```
 
-  - запускается процесс создания хотфикса под названием hotfix-1.0.1. Это необходимо для исправления критической ошибки, обнаруженной после релиза.
+  - запускаем процесс создания хотфикса под названием hotfix-1.0.1. Это необходимо для исправления критической ошибки, обнаруженной после релиза.
 <img width="547" alt="image" src="https://github.com/user-attachments/assets/130474a3-59e6-4ff8-98fe-5d3e68b0b613">
 
 
@@ -167,7 +165,7 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
        git add file_with_error.py
        ```
 
-  - файл, содержащий ошибку, добавляется в индекс для последующего коммита.
+  - файл, содержащий ошибку, добавляем в индекс для последующего коммита.
 
 
       ```
@@ -176,6 +174,11 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 
   - создается коммит с сообщением об исправлении критической ошибки.
 <img width="623" alt="image" src="https://github.com/user-attachments/assets/19c987b9-5201-41da-b30f-aaa17188d968">
+
+```
+git flow hotfix finish hotfix-1.0.1
+```
+  - завершаем работу над хотфиксом, после чего изменения из ветки хотфикса сливаются в обе основные ветки: develop и main.
 
     ```
      git push origin develop
