@@ -179,6 +179,8 @@ git clone [https://github.com/MashaFedorova06/inf-lab5.git]
 git flow hotfix finish hotfix-1.0.1
 ```
   - завершаем работу над хотфиксом, после чего изменения из ветки хотфикса сливаются в обе основные ветки: develop и main.
+    <img width="590" alt="image" src="https://github.com/user-attachments/assets/ae588ac6-534a-4d9d-97a4-7795bad127c7">
+
 
     ```
      git push origin develop
