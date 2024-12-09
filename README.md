@@ -186,14 +186,14 @@ git flow hotfix finish hotfix-1.0.1
      git push origin develop
      ```
 
-  - все изменения из локальной ветки develop отправляются в удаленный репозиторий на GitHub, чтобы другие участники команды могли получить доступ к актуальной версии проекта.
+  - все изменения из локальной ветки develop отправляются в удаленный репозиторий на GitHub
 
  <img width="503" alt="image" src="https://github.com/user-attachments/assets/09d643a5-1be2-4357-a627-2ac009863df8">
 
   ```
   git push origin main
    ```
-  - отправка всех изменений из локальной ветки master (включая завершенный релиз)
+  - отправка всех изменений из локальной ветки main (включая завершенный релиз)
 <img width="526" alt="image" src="https://github.com/user-attachments/assets/529a6640-3eb9-4598-98e4-aae1235bd67c">
 
 
